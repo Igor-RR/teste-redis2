@@ -1,0 +1,21 @@
+Comandos do redis:
+
+SET: ALterar, criar UMA chave + seu valor
+GET: Cponsultar uma chave  e seu valor
+
+M ---> Many
+MSET: Cadastrar ou alterar multiplas chaves
+MGET : Consultar Multiplaas chaves
+
+SETNX: Crie se não existir
+STRLEN: Verifica o tamanho de um string
+GETRANGE: Seleciona um intervalo de texto
+    Ex: SET nome: "ABC DEF"
+        GETRANGE: nome 0(star) 2(end)
+        "AB"
+SETRANGE: Altera os caracteres com base no novo valor passado + sua posição
+
+INCRBY : Soma valores numeriocs
+INCRBYFLOAT: Soma valores numeriocs quando os dados soa FLOAT
+DECRBY: Retira valores
+
