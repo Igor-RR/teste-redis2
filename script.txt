@@ -10,6 +10,11 @@ as informações são perdidas e um custo computacional desnecessário e despend
 */
 
 HSET user:1 nomeUser "fulano" senha "1234" cache "https://site.com.br"
+
+/ * Salva as informações acerca do status do material */
+
+/* 
+HSET material:1 rg "879654" quantidade
 HEXPIRE user:1 60 FIELDS 1 cache
 
 ------/ Validação /------
