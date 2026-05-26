@@ -40,4 +40,4 @@ LLEN: Verificar tamanho da lista
 LINDEX: Busca por itens com base no índice
 LSET: Alterir item na lista 
 LINSERT: Insere item na lista com base em uma elemento. OBS: Ele só aceita texto em AFTER|BEFORE
-LMOVE: Mover itens entre listas
+LMOVE: Mover itens entre lista
